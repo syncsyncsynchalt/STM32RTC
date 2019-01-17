@@ -40,6 +40,7 @@
 #define __STM32_RTC_H
 
 #include "Arduino.h"
+#include "rtc.h"
 
 // Check if RTC HAL enable in variants/board_name/stm32yzxx_hal_conf.h
 #ifndef HAL_RTC_MODULE_ENABLED
